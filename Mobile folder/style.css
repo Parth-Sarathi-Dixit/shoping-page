@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* NAVBAR */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ubuntu', sans-serif;
+    background-color: #cfcfcf;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #cfcfcf;
+}
+
+.navbar a:hover {
+    color: #afafaf;
+}
+
+.bi-caret-down-fill {
+    color: #cfcfcf;
+    margin-left: 5px;
+}
+
+.bi-cart {
+    color: #cfcfcf;
+    font-size: 1.5rem;
+    border: 1px solid #cfcfcf;
+    border-radius: 50%;
+    padding: 8px;
+    transition: 200ms ease-in-out;
+}
+
+.bi-cart:hover {
+    color: #2d2d2d;
+    cursor: pointer;
+    background-color: #afafaf;
+}
+
+/* NVABAR */
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* border: 1px solid; */
+    margin: 0;
+    background-color: #2d2d2d;
+    font-family: 'Ubuntu';
+    font-weight: 100;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+
+}
+
+
+.nav-items .logo {
+    width: 4%;
+    cursor: pointer;
+}
+
+.nav-items .logo:hover {
+    opacity: 0.9;
+}
+
+.nav-items ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav-items ul li {
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+/* CATEGORIES */
+.category-list-div {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    border: 1px solid #cfcfcf;
+}
+
+
+.category-list-div ul {
+    background-color: #2d2d2d;
+    z-index: 1;
+    text-decoration: none;
+    position: absolute;
+    /* top: 10px; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    line-height: 2;
+}
+
+
+.category-list-div ul li:hover {
+    color: #afafaf;
+}
+
+
+.dropdown-links {
+    font-style: normal;
+}
+
+
+#dropdown-arrow:hover {
+    color: #afafaf;
+    transform: rotateZ('360deg');
+}
+
+
+
+/* GRID */
+
+.grid-item .details .detail-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.grid-image {
+    width: 15%;
+}
